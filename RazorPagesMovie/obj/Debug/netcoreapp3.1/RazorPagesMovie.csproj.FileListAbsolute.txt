@@ -147,3 +147,8 @@ F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\bin\Debug\netcoreapp3.1\runtimes\win
 F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Create.cshtml.g.cs
+F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Delete.cshtml.g.cs
+F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Details.cshtml.g.cs
+F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Edit.cshtml.g.cs
+F:\Dev\ASP.NET-Core-Roadmap\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Index.cshtml.g.cs
