@@ -29,3 +29,5 @@ The `@model` directive specifies the type of the model passed to the Razor Page.
 ```CSHTML
 @Html.DisplayNameFor(model => model.Movie[0].Title)
 ```
+## Adding a database context.
+The `database context` is the main class that coordinates Entity Framework functionality for a data model. This class is created by deriving from the [Microsoft.EntityFrameworkCore.DbContext class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.dbcontext?view=efcore-5.0).
