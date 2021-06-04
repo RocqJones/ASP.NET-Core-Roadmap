@@ -6,5 +6,9 @@ namespace ExampleWebAPI.Models
         public long Id { get; set; }
         public string Name { get; set; }
         public bool IsComplete { get; set; }
+
+        // Data Transfer Object (DTO), prevent over-posting.
+        // Demonstrate the DTO approach by include a secret field.
+        public string Secret { get; set; }
     }
 }

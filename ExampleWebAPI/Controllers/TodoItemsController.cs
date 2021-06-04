@@ -27,7 +27,7 @@ namespace ExampleWebAPI.Controllers
             return await _context.TodoItems.ToListAsync();
         }
 
-        // GET: api/TodoItems/5
+        // GET: api/TodoItems/5 - "{id}" is a placeholder variable for the unique identifier of the to-do item
         [HttpGet("{id}")]
         public async Task<ActionResult<TodoItem>> GetTodoItem(long id)
         {
