@@ -29,7 +29,8 @@ The `@model` directive specifies the type of the model passed to the Razor Page.
 ```CSHTML
 @Html.DisplayNameFor(model => model.Movie[0].Title)
 ```
-## Adding a database context.
+## API Development.
+## 1. Adding a database context.
 The `database context` is the main class that coordinates Entity Framework functionality for a data model. This class is created by deriving from the [Microsoft.EntityFrameworkCore.DbContext class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.dbcontext?view=efcore-5.0).
 * ### Add NuGet packages
   - From the **Tools menu**, select `NuGet Package Manager > Manage NuGet Packages for Solution`.
@@ -52,5 +53,12 @@ namespace TodoApi.Models
     }
 }
 ```
-## Register the database context.
+## 2. Register the database context.
 In ASP.NET Core, services such as the **DB context** must be registered with the **dependency injection (DI) container**. The container provides the service to controllers (update Startup.cs). 
+## 3. Scaffold a controller.
+* Right-click the Controllers folder.
+* Select Add > New Scaffolded Item.
+* Select API Controller with actions, using Entity Framework, and then select Add.
+* In the Add API Controller with actions, using Entity Framework dialog:
+  - Select TodoItem (TodoApi.Models) in the Model class.
+  - Select ExampleContext (TodoApi.Models) in the Data context class and Select Add.
