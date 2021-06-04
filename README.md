@@ -72,3 +72,6 @@ The ASP.NET Core templates for:
 * API controllers don't include `[action]` in the route template.
   
 When the `[action]` token isn't in the route template, the [action](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-5.0#action) name is excluded from the route. That is, the action's associated method name isn't used in the matching route.
+  
+  
+### [Continuation Reference: Testing with Postman, PUT, and DELETE method](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio)
