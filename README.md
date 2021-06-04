@@ -53,4 +53,4 @@ namespace TodoApi.Models
 }
 ```
 ## Register the database context.
-In ASP.NET Core, services such as the **DB context** must be registered with the **dependency injection (DI) container**. The container provides the service to controllers.
+In ASP.NET Core, services such as the **DB context** must be registered with the **dependency injection (DI) container**. The container provides the service to controllers (update Startup.cs). 
