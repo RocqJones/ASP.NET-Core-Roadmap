@@ -31,12 +31,12 @@ The `@model` directive specifies the type of the model passed to the Razor Page.
 ```
 ## Adding a database context.
 The `database context` is the main class that coordinates Entity Framework functionality for a data model. This class is created by deriving from the [Microsoft.EntityFrameworkCore.DbContext class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.dbcontext?view=efcore-5.0).
-* ## Add NuGet packages
+* ### Add NuGet packages
   - From the **Tools menu**, select `NuGet Package Manager > Manage NuGet Packages for Solution`.
   - Select the Browse tab, and then enter **Microsoft.EntityFrameworkCore.InMemory** in the search box.
   - Select **Microsoft.EntityFrameworkCore.InMemory** in the left pane.
   - Select the **Project checkbox** in the right pane and then select `Install`.
-* ## Add the TodoContext database context
+* ### Add the TodoContext database context
   - Right-click the Models folder and select `Add > Class`. Name the class `ExampleContext` and click Add.
 ```CSharp
 using Microsoft.EntityFrameworkCore;
@@ -52,3 +52,5 @@ namespace TodoApi.Models
     }
 }
 ```
+## Register the database context.
+In ASP.NET Core, services such as the **DB context** must be registered with the **dependency injection (DI) container**. The container provides the service to controllers.
