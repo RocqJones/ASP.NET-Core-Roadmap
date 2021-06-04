@@ -57,8 +57,17 @@ namespace TodoApi.Models
 In ASP.NET Core, services such as the **DB context** must be registered with the **dependency injection (DI) container**. The container provides the service to controllers (update Startup.cs). 
 ## 3. Scaffold a controller.
 * Right-click the Controllers folder.
-* Select Add > New Scaffolded Item.
-* Select API Controller with actions, using Entity Framework, and then select Add.
+* Select Add > `New Scaffolded Item`.
+* Select `API Controller with actions, using Entity Framework`, and then select `Add`.
 * In the Add API Controller with actions, using Entity Framework dialog:
-  - Select TodoItem (TodoApi.Models) in the Model class.
-  - Select ExampleContext (TodoApi.Models) in the Data context class and Select Add.
+  - Select `TodoItem (TodoApi.Models)` in the Model class.
+  - Select `ExampleContext (TodoApi.Models)` in the Data context class and Select Add.
+
+The generated code:
+* Marks the class with the [[ApiController]](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.apicontrollerattribute?view=aspnetcore-5.0) attribute. This attribute indicates that `the controller responds to web API requests`. For information about specific behaviors that the attribute enables, see [Create web APIs with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-5.0).
+* Uses DI to inject the database context (ExampleContext) into the controller. The database context is used in each of the [create, read, update, and delete(CRUD) methods](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) in the controller.
+The ASP.NET Core templates for:
+
+Controllers with views include [action] in the route template.
+API controllers don't include [action] in the route template.
+When the [action] token isn't in the route template, the action name is excluded from the route. That is, the action's associated method name isn't used in the matching route.
