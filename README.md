@@ -36,3 +36,19 @@ The `database context` is the main class that coordinates Entity Framework funct
   - Select the Browse tab, and then enter **Microsoft.EntityFrameworkCore.InMemory** in the search box.
   - Select **Microsoft.EntityFrameworkCore.InMemory** in the left pane.
   - Select the **Project checkbox** in the right pane and then select `Install`.
+* ## Add the TodoContext database context
+  - Right-click the Models folder and select `Add > Class`. Name the class `ExampleContext` and click Add.
+```CSharp
+using Microsoft.EntityFrameworkCore;
+
+namespace TodoApi.Models
+{
+    public class ExampleContext : DbContext
+    {
+        public ExampleContext(DbContextOptions<ExampleContext> options): base(options)
+        {
+        }
+        public DbSet<TodoItem> ExampleItems { get; set; }
+    }
+}
+```
