@@ -21,5 +21,11 @@ namespace CRB.Models
         public string LoanPeriodID { get; set; }
         public int RepaymentTerm { get; set; }
         public double InterestRate { get; set; }
+        public string InstallmentStartDate { get; set; }
+        public string MaturityDate { get; set; }
+        public double InstallmentAmount { get; set; }
+        public string CreditOfficerID { get; set; }
+        public double OutstandingPrincipal { get; set; }
+        public double InterestAmount { get; set; }
     }
 }
