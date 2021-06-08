@@ -8,7 +8,7 @@ using System.Data;
 using System.Data.Common;
 using System.Linq;
 
-namespace Dapper_ORM.Services
+namespace CRB.Services
 {
     public class Dapperr : IDapper
     {
