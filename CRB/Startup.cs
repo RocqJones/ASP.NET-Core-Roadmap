@@ -1,3 +1,4 @@
+using CRB.Models;
 using CRB.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -24,9 +25,11 @@ namespace CRB
 
             // new service def from here
             services.AddDbContext<DataContext.AppContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            options.UseSqlServer(Configuration.GetConnectionString("ConnectionStrings:DefaultConnection")));
 
             services.AddScoped<IDapper, Dapperr>();
+
+            //DbConn.ConnectionString = Configuration.GetSection("ConnectionStrings:DefaultConnection").Value;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
