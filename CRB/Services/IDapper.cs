@@ -1,4 +1,4 @@
-// Interface dapper
+// Interface dapper - performs the Crud Operations in our project.
 using Dapper;
 using System;
 using System.Collections.Generic;
