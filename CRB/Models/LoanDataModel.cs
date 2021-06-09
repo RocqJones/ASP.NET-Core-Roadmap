@@ -81,4 +81,9 @@ namespace CRB.Models
         [Display(Name = "InterestAmount")]
         public decimal? InterestAmount { get; set; }
     }
+
+    public static class DbConn
+    {
+        public static string ConnectionString { get; set; }
+    }
 }
