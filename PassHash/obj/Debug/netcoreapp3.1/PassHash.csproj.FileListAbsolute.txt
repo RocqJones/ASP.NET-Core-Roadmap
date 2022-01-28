@@ -1,0 +1,13 @@
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\bin\Debug\netcoreapp3.1\PassHash.exe
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\bin\Debug\netcoreapp3.1\PassHash.deps.json
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\bin\Debug\netcoreapp3.1\PassHash.runtimeconfig.json
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\bin\Debug\netcoreapp3.1\PassHash.runtimeconfig.dev.json
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\bin\Debug\netcoreapp3.1\PassHash.dll
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\bin\Debug\netcoreapp3.1\PassHash.pdb
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\obj\Debug\netcoreapp3.1\PassHash.csproj.AssemblyReference.cache
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\obj\Debug\netcoreapp3.1\PassHash.AssemblyInfoInputs.cache
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\obj\Debug\netcoreapp3.1\PassHash.AssemblyInfo.cs
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\obj\Debug\netcoreapp3.1\PassHash.csproj.CoreCompileInputs.cache
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\obj\Debug\netcoreapp3.1\PassHash.dll
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\obj\Debug\netcoreapp3.1\PassHash.pdb
+F:\Dev\ASP.NET-Core-Roadmap\PassHash\obj\Debug\netcoreapp3.1\PassHash.genruntimeconfig.cache
